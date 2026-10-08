@@ -409,23 +409,19 @@
     border-radius: var(--radius);
     padding: clamp(40px, 7vw, 72px) clamp(24px, 6vw, 64px);
     text-align: center;
-    color: #fff;
-    background:
-      radial-gradient(80% 120% at 0% 0%, #ff9a3d 0%, transparent 55%),
-      radial-gradient(70% 120% at 100% 100%, #3b4bd8 0%, transparent 60%),
-      linear-gradient(120deg, #ff5a4f, #c04fff 55%, #4f6bff);
+    background: var(--surface);
+    border: 1px solid var(--line);
   }
-  .band h2 { color: #fff; }
   .band p {
     margin: 12px auto 28px;
     max-width: 440px;
-    color: rgba(255, 255, 255, .82);
+    color: var(--muted);
   }
   .band .btn {
-    background: #fff;
-    color: #0e0e11;
+    background: var(--text);
+    color: var(--bg);
   }
-  .band .btn:hover { transform: translateY(-1px); box-shadow: 0 14px 30px -12px rgba(0,0,0,.4); }
+  .band .btn:hover { transform: translateY(-1px); box-shadow: 0 10px 30px -14px rgba(14, 14, 17, .4); }
 
   /* ---------- Footer ---------- */
   footer {
